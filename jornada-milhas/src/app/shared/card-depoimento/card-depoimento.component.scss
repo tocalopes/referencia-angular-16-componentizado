@@ -1,0 +1,18 @@
+.card-depoimento{
+    max-width: 320px;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    mat-card-title{
+        width: 56px;
+        height: 56px;
+    }
+    mat-card-content{
+        padding-top: 4px;
+    }
+    .autor{
+        font-weight: 500;
+    }
+}
