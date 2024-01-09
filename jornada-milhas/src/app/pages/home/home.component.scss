@@ -1,0 +1,8 @@
+.card-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 32px;
+    margin: 16px 0;
+}
