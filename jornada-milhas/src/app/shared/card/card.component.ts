@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-card',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./card.component.scss']
 })
 export class CardComponent {
-
+  
+  @Input()
+  variant:  'primary' | 'secondary' = 'primary'; //o pipe é usado para travar o valor da variável em opções pré definidas
 }

@@ -7,7 +7,9 @@ footer {
     flex-direction: row;
     max-height: 200px;
     justify-content: space-between;
-
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     .coluna {
         padding: 20px 0;
         display: flex;
