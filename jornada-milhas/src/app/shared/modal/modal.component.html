@@ -1,0 +1,63 @@
+
+<section class="modal">
+    <h1 mat-dialog-title>Viajante</h1>
+
+    <div mat-dialog-content>
+        <div class="selecao-idade">
+            <ul>
+                <li><strong>Adultos</strong></li>
+                <li>(Acima de 12 anos)</li>
+                <li>
+                    <button mat-mini-fab class="botao-subtracao">
+                        <img src="assets/icones/do_not_disturb_on.png" alt="Operador de subtração">
+                    </button>
+                    <span>1</span>
+                    <button mat-mini-fab class="botao-adicao">
+                        <img src="assets/icones/add_circle.png" alt="Operador de adição">
+                    </button>
+                </li>
+            </ul>
+            <ul>
+                <li><strong>Crianças</strong></li>
+                <li>(Entre 2 e 11 anos)</li>
+                <li>
+                    <button mat-mini-fab class="botao-subtracao">
+                        <img src="assets/icones/do_not_disturb_on.png" alt="Operador de subtração">
+                    </button>
+                    <span>1</span>
+                    <button mat-mini-fab class="botao-adicao">
+                        <img src="assets/icones/add_circle.png" alt="Operador de adição">
+                    </button>
+                </li>
+            </ul>
+            <ul>
+                <li><strong>Bebês</strong></li>
+                <li>(até 2 anos)</li>
+                <li>
+                    <button mat-mini-fab class="botao-subtracao">
+                        <img src="assets/icones/do_not_disturb_on.png" alt="Operador de subtração">
+                    </button>
+                    <span>1</span>
+                    <button mat-mini-fab class="botao-adicao">
+                        <img src="assets/icones/add_circle.png" alt="Operador de adição">
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h2>Categoria</h2>
+        <div class="flex-container">
+            <mat-chip-listbox aria-label="Fish selection">
+                <mat-chip-option selected>Economica</mat-chip-option>
+                <mat-chip-option>Executiva</mat-chip-option>
+            </mat-chip-listbox>
+        </div>
+    </div>
+
+
+    <div mat-dialog-actions class="botoes">
+        <button mat-raised-button color="primary">Primary</button>
+        <button mat-stroked-button color="primary">Primary</button>
+    </div>
+</section>
