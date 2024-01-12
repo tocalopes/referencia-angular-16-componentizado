@@ -1,0 +1,1 @@
+npm run start:dev	--comando para rodar o backend
