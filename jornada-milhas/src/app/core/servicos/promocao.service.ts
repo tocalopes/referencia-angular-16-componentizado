@@ -1,8 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Promocao } from 'jornada-milhas-api-main/dist/src/core/types';
 import { Observable } from 'rxjs/internal/Observable';
 import { environment } from 'src/environments/environment.development';
+import { Promocao } from '../types';
 
 const URI = environment.apiUrl;
 const LISTAR_PROMOCOES = 'promocoes'

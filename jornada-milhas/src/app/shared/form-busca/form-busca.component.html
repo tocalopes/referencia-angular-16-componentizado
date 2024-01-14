@@ -18,21 +18,17 @@
             </mat-chip-listbox>
         </div>
         <div class="flex-container">
-            <mat-form-field appearance="outline" class="input-container">
-                <mat-label>Origem</mat-label>
-                <input matInput placeholder="Origem">
-                <mat-icon matSuffix>search</mat-icon>
-                <mat-icon matPrefix>flight_takeoff</mat-icon> <!--adiciona link no começo-->
-            </mat-form-field>
+            <app-dropdown-uf label='Origem'
+                placeholder='Origem'
+                matPrefix= 'flight_takeoff'>
+            </app-dropdown-uf>
             <button mat-icon-button aria-label="change icon">
                 <mat-icon>sync_alt</mat-icon>
             </button>
-            <mat-form-field appearance="outline" class="input-container">
-                <mat-label>Destino</mat-label>
-                <input matInput placeholder="Destino">
-                <mat-icon matSuffix>search</mat-icon>
-                <mat-icon matPrefix>flight_land</mat-icon> <!--adiciona link no começo-->
-            </mat-form-field>
+            <app-dropdown-uf label='Destino'
+                placeholder='Destino'
+                matPrefix= 'flight_land'>
+            </app-dropdown-uf>
             <mat-form-field appearance="outline" class="input-container">
                 <mat-label>Data de ida</mat-label>
                 <input matInput [matDatepicker]="ida" placeholder="selecione">

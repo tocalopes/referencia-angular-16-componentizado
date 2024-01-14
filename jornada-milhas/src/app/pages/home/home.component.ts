@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Promocao } from 'jornada-milhas-api-main/dist/src/promocoes/entities/promocao.entity';
 import { PromocaoService } from 'src/app/core/servicos/promocao.service';
+import { Promocao } from 'src/app/core/types';
 
 @Component({
   selector: 'app-home',
