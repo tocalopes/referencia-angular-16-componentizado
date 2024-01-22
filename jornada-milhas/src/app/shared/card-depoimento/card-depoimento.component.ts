@@ -1,4 +1,6 @@
 import { Component, Input } from '@angular/core';
+import { Depoimento } from 'src/app/core/types';
+
 
 @Component({
   selector: 'app-card-depoimento',
@@ -8,10 +10,9 @@ import { Component, Input } from '@angular/core';
 export class CardDepoimentoComponent {
 
   @Input()
-  depoimento: string = '';
+  depoimento!: Depoimento;
+
   
-  @Input()
-  autor: string = '';
 
 
 }

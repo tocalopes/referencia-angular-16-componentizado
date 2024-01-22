@@ -1,3 +1,4 @@
+
 export interface Promocao {
     id?: number
     destino?: string
@@ -5,8 +6,17 @@ export interface Promocao {
     preco?: number
 }
 
-export interface Estado{
+export interface Estado {
     id?: string,
     nome?: string,
     sigla?: string
+}
+
+export interface Depoimento {
+
+    id?: number,
+    texto?: string,
+    autor?: string,
+    avatar?: string
+
 }

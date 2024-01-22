@@ -6,17 +6,11 @@
         <app-card-busca *ngFor="let promocao of listaPromocao" [promocao]="promocao"></app-card-busca>       
     </div>
     <h2>Depoimentos</h2>
+<!-- src/app/pages/home/depoimentos/depoimentos.component.html -->
     <div class="card-wrapper">
-        <app-card-depoimento depoimento="Recomendo fortemente a agência de viagens Jornada.
-        Eles oferecem um serviço personalizado e de alta qualidade
-        que excedeu minhas expectativas em minha última viagem." autor="Gabriel Lopes"></app-card-depoimento>
-        <app-card-depoimento depoimento="Recomendo fortemente a agência de viagens Jornada.
-        Eles oferecem um serviço personalizado e de alta qualidade
-        que excedeu minhas expectativas em minha última viagem." autor="Gabriel Lopes"></app-card-depoimento>
-        <app-card-depoimento depoimento="Recomendo fortemente a agência de viagens Jornada.
-        Eles oferecem um serviço personalizado e de alta qualidade
-        que excedeu minhas expectativas em minha última viagem." autor="Gabriel Lopes"></app-card-depoimento>
+        <app-card-depoimento  *ngFor="let item of depoimentos" [depoimento]="item" />
     </div>
+
 </app-container>
 <app-banner src="assets/imagens/banner-homepage-rodape.png" alt="banner do rodapé aplicação"></app-banner>
 <app-footer></app-footer>
